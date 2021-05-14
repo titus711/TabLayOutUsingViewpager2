@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/input_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/answer_text"
+        android:gravity="right"
+        android:padding="5dp"
+        android:text="@string/_8_2"
+        android:textColor="#000"
+        android:textSize="50sp"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:id="@+id/answer_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:padding="5dp"
+        android:text="@string/answer"
+        android:textColor="#000"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:layout_above="@id/_main_linear"/>
+
+
+
+    <LinearLayout
+        android:id="@+id/_main_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:weightSum="5"
+        android:background="#F5F5DC"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="4"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/button_17"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:text="@string/_17"
+                android:visibility="invisible"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:background="@drawable/button_design" />
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/button_18"
+                android:text="@string/del"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:textColor="#000"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_design" />
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/button_19"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/ce"
+                android:textColor="#000"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_design" />
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/button_20"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content"
+                android:text="@string/div_sign"
+                android:textColor="#000"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_design" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:weightSum="4"
+            android:orientation="horizontal"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/button_13"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/_7"
+                android:layout_margin="10dp"
+                android:textColor="#000"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_design" />
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/button_14"
+                android:text="@string/_8"
+                android:textColor="#000"
+                android:layout_margin="10dp"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_design" />
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/button_15"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/_9"
+                android:textColor="#000"
+                android:layout_margin="10dp"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_design"
+                />
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/button_16"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:text="@string/multiplication"
+                android:textColor="#000"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_design" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="4"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/button_9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:text="@string/_4"
+                android:textColor="#000"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_design" />
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/button_10"
+                android:text="@string/_5"
+                android:textColor="#000"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_design" />
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/button_11"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:text="@string/_6"
+                android:textColor="#000"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_design" />
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/button_12"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:text="@string/minus_sign"
+                android:textColor="#000"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_design" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:weightSum="4"
+            android:orientation="horizontal"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/button_5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:text="@string/_1"
+                android:textColor="#000"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_design" />
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/button_6"
+                android:text="@string/_2"
+                android:textColor="#000"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_design" />
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/button_7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:text="@string/_3"
+                android:textColor="#000"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_design" />
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/button_8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:text="@string/addition_sign"
+                android:textColor="#000"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_design" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:weightSum="4"
+            android:orientation="horizontal"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+
+            <info.hoang8f.widget.FButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:visibility="invisible"
+                android:background="@drawable/button_design" />
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/button_2"
+                android:text="@string/_0"
+                android:textColor="#000"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_design" />
+
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/button_3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:text="@string/comma_sign"
+                android:textColor="#000"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_design" />
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/button_4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:text="@string/equal_sign"
+                android:backgroundTint="#BF360C"
+                android:textColor="#000"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_design" />
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
